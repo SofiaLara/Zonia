@@ -7,19 +7,21 @@
 		<title>Payments</title>
 	</head>
 <body>
-<p>{{Artists page}}</p>    
-<form action="/charge" method="POST">
-  <script
-    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-    data-key="pk_test_uvP5TiEpBX57MoUoTl3N6ffR"
-    data-amount="999"
-    data-name="Stripe.com"
-    data-description="Widget"
-    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-    data-locale="auto"
-    data-zip-code="true">
-  </script>
-</form>
+<div class="container-fluid">    
+   <p>{{Artists page}}</p>     
+    <form action="/charge" method="POST">
+      <script
+        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+        data-key="pk_test_uvP5TiEpBX57MoUoTl3N6ffR"
+        data-amount="999"
+        data-name="Stripe.com"
+        data-description="Widget"
+        data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+        data-locale="auto"
+        data-zip-code="true">
+      </script>
+    </form>
     <button> Support your artist </button>
+</div>
 </body>
 </html>
