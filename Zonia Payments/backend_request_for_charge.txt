@@ -1,0 +1,6 @@
+curl https://api.stripe.com/v1/charges \
+   -u sk_test_6o6d6vTWRBB59VG5xFRnxBuS \
+   -d amount=100000 \
+   -d currency=usd \
+   -d source="tok_1CmnxLIohN9WyyKVBzcLu0rS" \
+   -d description="Charge for joseph.moore@example.com"
